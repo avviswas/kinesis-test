@@ -32,7 +32,7 @@ public class ProducerApp
 
 		clientBuilder.setRegion("us-east-2");
 		clientBuilder.setCredentials(new AWSStaticCredentialsProvider(new
-				BasicAWSCredentials("AKIAJNX66GAOQZ3WEKRQ", "OyAS2PNAo6hjRh3Z2l6e+9uFtI1BuTOFdebGzOeS ")));
+				BasicAWSCredentials("**********", "**********+**********")));
 
 		clientBuilder.setClientConfiguration(new ClientConfiguration().withUserAgentPrefix(ClientConfiguration.DEFAULT_USER_AGENT)
 				.withUserAgentSuffix("kinesis-sample/1.0.0"));
